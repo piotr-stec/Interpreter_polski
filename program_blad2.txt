@@ -1,0 +1,5 @@
+# podwójna deklaracja zmiennej
+zmienna x = 10;
+wyświetl(x);
+zmienna x = 20;
+wyświetl(x);

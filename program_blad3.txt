@@ -1,0 +1,4 @@
+# brak średnika
+zmienna a = 5;
+zmienna b = 10
+wyświetl(a-b);

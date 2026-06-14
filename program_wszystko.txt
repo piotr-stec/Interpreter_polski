@@ -1,0 +1,113 @@
+### 
+Program
+z 
+wszystkim 
+###
+
+# Zmienne
+
+zmienna a;
+zmienna b = 10;
+a = 5;
+
+wyświetl(a);
+wyświetl(b);
+
+# Arytmetyka
+zmienna dodawanie = a + b;
+zmienna odejmowanie = b - a;
+zmienna mnozenie = a * b;
+zmienna dzielenie = b / a;
+
+wyświetl(dodawanie);
+wyświetl(odejmowanie);
+wyświetl(mnozenie);
+wyświetl(dzielenie);
+
+# Priorytet mnożenia
+zmienna priorytet = 2 + 3 * 4;
+wyświetl(priorytet);
+
+# Priorytet nawiasow
+zmienna nawiasy = (2 + 3) * 4;
+wyświetl(nawiasy);
+
+# Porównania
+wyświetl(a < b);
+wyświetl(a > b);
+wyświetl(a == b);
+wyświetl(a != b);
+wyświetl(a <= b);
+wyświetl(a >= b);
+
+
+# operatory logiczne 
+wyświetl(prawda i prawda);
+wyświetl(prawda i fałsz);
+wyświetl(fałsz lub prawda);
+wyświetl(fałsz lub fałsz);
+wyświetl(nie prawda);
+wyświetl(nie fałsz);
+
+# wyrażenie logiczne
+wyświetl(a < b i b > 3);
+wyświetl(a > b lub b == 10);
+
+# instryukcje warunkowe
+jeżeli (a < b) {
+    wyświetl(1);
+}
+
+jeżeli (a > b) {
+    wyświetl(0);
+} inaczej {
+    wyświetl(1);
+}
+
+# instrukcje warunkowe z podwójnym warunkiem
+jeżeli (a < b i b == 10) {
+    wyświetl(1);
+} inaczej {
+    wyświetl(0);
+}
+
+
+# Pętla dopóki
+
+zmienna licznik = 0;
+
+dopóki (licznik < 4) {
+    wyświetl(licznik);
+    licznik = licznik + 1;
+}
+
+# Pętla z podwójnym warunkiem
+zmienna x = 1;
+zmienna y = 10;
+
+dopóki (x < 5 i y > 5) {
+    x = x + 1;
+    y = y - 1;
+}
+
+wyświetl(x);
+wyświetl(y);
+
+# Pętla z jeżeli w środku
+licznik = 0;
+
+dopóki (licznik < 10) {
+    jeżeli (licznik == 5) {
+        wyświetl(licznik);
+    }
+    licznik = licznik + 1;
+}
+
+
+#  Pobieranie z klawiatury
+zmienna wczytana;
+pobierz(wczytana);
+wyświetl(wczytana);
+
+zmienna podwojona = wczytana * 2;
+wyświetl(podwojona);

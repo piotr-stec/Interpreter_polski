@@ -1,0 +1,4 @@
+# użycie niezadeklarowanej zmiennej
+zmienna a = 5;
+wyświetl(a);
+wyświetl(b);
